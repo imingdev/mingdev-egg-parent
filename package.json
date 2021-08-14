@@ -1,10 +1,13 @@
 {
   "name": "@mingdev/egg-parent",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "mingdev <mingdev@163.com>",
   "scripts": {
     "dev": "egg-bin dev",
     "generate-models": "sequelize-automate -t egg -h localhost -d article_db -u root -p helloworld123 -P 3306  -e mysql -o app/model --camel -r"
+  },
+  "egg": {
+    "declarations": true
   },
   "dependencies": {
     "egg": "^2.30.0",
