@@ -1,0 +1,30 @@
+{
+  "name": "@mingdev/egg-parent",
+  "version": "1.0.0",
+  "author": "mingdev <mingdev@163.com>",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "generate-models": "sequelize-automate -t egg -h localhost -d article_db -u root -p helloworld123 -P 3306  -e mysql -o app/model --camel -r"
+  },
+  "dependencies": {
+    "egg": "^2.30.0",
+    "egg-bin": "^4.16.4",
+    "egg-scripts": "^2.14.0",
+    "egg-sequelize": "^6.0.0",
+    "egg-validate": "^2.0.2",
+    "hash-sum": "^2.0.0",
+    "mysql2": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-egg": "^9.0.0",
+    "sequelize-automate": "^1.2.2"
+  },
+  "files": [
+    "app/model",
+    "lib",
+    "config",
+    "index.js"
+  ],
+  "homepage": "https://github.com/imingdev/mingdev-egg-parent"
+}
