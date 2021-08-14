@@ -1,6 +1,6 @@
 {
   "name": "@mingdev/egg-parent",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "mingdev <mingdev@163.com>",
   "scripts": {
     "dev": "egg-bin dev",
@@ -25,6 +25,8 @@
     "app/model",
     "lib",
     "config",
+    "app.js",
+    "agent.js",
     "index.js"
   ],
   "homepage": "https://github.com/imingdev/mingdev-egg-parent"
