@@ -1,6 +1,6 @@
 {
   "name": "@mingdev/egg-parent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "mingdev <mingdev@163.com>",
   "scripts": {
     "dev": "egg-bin dev",
@@ -10,10 +10,11 @@
     "egg": "^2.30.0",
     "egg-bin": "^4.16.4",
     "egg-scripts": "^2.14.0",
-    "egg-sequelize": "^6.0.0",
     "egg-validate": "^2.0.2",
     "hash-sum": "^2.0.0",
-    "mysql2": "^2.3.0"
+    "mysql2": "^2.3.0",
+    "mz-modules": "^2.1.0",
+    "sequelize": "^6.6.5"
   },
   "devDependencies": {
     "eslint": "^7.31.0",
