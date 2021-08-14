@@ -28,6 +28,7 @@
     "app/model",
     "lib",
     "config",
+    "typings",
     "app.js",
     "agent.js",
     "index.js"
